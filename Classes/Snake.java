@@ -1,3 +1,7 @@
+package Classes;
+
+import Classes.Critter;
+
 public class Snake extends Critter
 {
 

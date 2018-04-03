@@ -1,3 +1,5 @@
+package Classes;
+
 public class Dragon extends Humanoid
 {
     public Dragon(String name, int ID)

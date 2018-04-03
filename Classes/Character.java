@@ -1,3 +1,5 @@
+package Classes;
+
 public abstract class Character
 {
     protected int positionX, positionY, health, maxHealth, speed, attack, id;
@@ -40,7 +42,7 @@ public abstract class Character
         if(health <= 0) die();        
         
     }
-    void doDamage(int dmg, Character receiver)
+    public void doDamage(int dmg, Character receiver)
     {
         int returnDmg;
         if(receiver.getStatus())
@@ -62,7 +64,7 @@ public abstract class Character
     {        
         return attack / 2;
     }
-    boolean getStatus()
+    public boolean getStatus()
     {
         if(isAlive == true) return true;
         else return false;

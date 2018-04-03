@@ -1,3 +1,7 @@
+package Classes;
+
+import Classes.Animal;
+
 public class Wolf extends Animal
 {
     

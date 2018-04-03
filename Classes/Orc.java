@@ -1,3 +1,5 @@
+package Classes;
+
 public class Orc extends Humanoid
 {
     public Orc(String name, int ID)

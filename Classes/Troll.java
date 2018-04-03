@@ -1,3 +1,7 @@
+package Classes;
+
+import Classes.Humanoid;
+
 public class Troll extends Humanoid
 {
     public Troll(String name, int ID)
